@@ -1,16 +1,3 @@
-body {
-  margin: 0;
-  background-color: #ddeeff;
-}
-.fl {
-  float: left;
-}
-.fr {
-  float: right;
-}
-.cf {
-  clear: both;
-}
 .game {
   width: 455px;
   height: 520px;
@@ -19,8 +6,6 @@ body {
 .game > .main {
   width: 286px;
   height: 520px;
-  border: 4px solid #7788aa;
-  display: block;
 }
 .game > .side {
   width: 104px;
@@ -29,5 +14,9 @@ body {
 .game > .side > .next {
   width: 104px;
   height: 104px;
+}
+canvas {
+  background-color: #becfea;
   border: 4px solid #7788aa;
+  display: block;
 }

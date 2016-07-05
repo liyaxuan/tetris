@@ -1,11 +1,4 @@
-body {
-	margin: 0;
-	background-color: #ddeeff;
-}
 
-.fl { float: left; }
-.fr { float: right; }
-.cf { clear: both; }
 
 @main-width: 286px;
 @main-height: 520px;
@@ -21,9 +14,7 @@ body {
 	margin: 10px auto;
 	>.main {
 		width: @main-width;
-		height: @main-height;
-		border: @border-width solid #7788aa;
-		display: block;				
+		height: @main-height;					
 	}
 
 	>.side {
@@ -32,11 +23,16 @@ body {
 		>.next {
 			width: 4*@block-width;
 			height: 4*@block-width;
-			border: @border-width solid #7788aa;
 		}
 
 		>.score-box {
 
 		}
 	}
+}
+
+canvas {
+	background-color: #becfea;
+	border: @border-width solid #7788aa;
+	display: block;	
 }
