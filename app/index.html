@@ -4,12 +4,12 @@
 		<meta charset="UTF-8">
 		<title>tetris</title>
 		<link rel="stylesheet" href="style/background.css">
-		<link rel="stylesheet" href="style/login.css">
 	</head>
 	<body>
-
-		<script>
-
-		</script>
+		<router-view v-bind:user-list="userList" v-bind:rank-list="rankList"
+		v-bind:another-matrix="anotherMatrix" v-bind:another-score="anotherScore"
+		v-bind:is-layer="isLayer" v-bind:tip="tip"
+		v-bind:is-end="isEnd" v-bind:is-pause="isPause" v-bind:intruder="intruder"></router-view>
+		<script src="bundle.js"></script>
 	</body>
 </html>
